@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+}
+.text,.date,.add{
+    margin:5px;
+}
+.but{
+    background-color:blueviolet;
+    color:azure;
+    height:40px;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+}
+.add:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.list{
+    display:grid;
+    grid-template-columns:200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.del{
+    background-color:rgb(240, 3, 18);
+}
